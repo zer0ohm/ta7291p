@@ -1,0 +1,22 @@
+#
+# Motor driver TA7291P Control Library Define syntax highlight
+#
+# Copyright (C) 2019 zer0ohm <16779650+zer0ohm@users.noreply.github.com>
+#
+# This file is part of libta7291p, and released under the MIT License.
+# More detail of license is see "LICENSE.md".
+
+# クラス
+TA7291P   KEYWORD1
+
+# メンバ関数
+begin           KEYWORD2
+changeInputMode KEYWORD2
+
+cw              KEYWORD2
+ccw             KEYWORD2
+brake           KEYWORD2
+stop            KEYWORD2
+
+# 定数
+MOT_STOP    LITERAL1
