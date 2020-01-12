@@ -9,7 +9,6 @@
 
 #include <Arduino.h>
 #include <stdint.h>
-#include <stdlib.h>
 
 #include "TA7291P.h"
 
