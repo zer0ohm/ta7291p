@@ -29,11 +29,10 @@ void setup () {
     pinMode(IN1_2, OUTPUT);
     pinMode(IN2_2, OUTPUT);
     pinMode(VREF_2, OUTPUT);
-
-    Serial.begin(9600); // シリアルポートを9600bpsで開く
 }
 
 void loop () {
+    /* (CW:正転、 CCW:逆転、 brake:ショートブレーキ、 stop:停止) */
     /* 5秒間左折 */
     motordriver.cw(IN1_1, IN2_1, VREF_1, 128);
     motordriver.ccw(IN1_2, IN2_2, VREF_2, 128);
