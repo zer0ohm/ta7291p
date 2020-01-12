@@ -12,7 +12,6 @@
 
 #include <Arduino.h>
 #include <stdint.h>
-#include <stdlib.h>
 
 class TA7291P {
 public:
